@@ -32,7 +32,7 @@ Start python3 in the src directory and
 This could be installed somewhere with pip or pip -e . to verify that it's portable. 
 
 Most of the value of this project for others is seeing and using the skeleton as a starting point
-for their own packages. It took half a day to tinker with the files to get 
+for their own packages. It took half a day to tinker with the files to get thins in the right places.
 
 There are some good posts but this one is very clear:
 <a href ="https://medium.com/@udiyosovzon/things-you-should-know-when-developing-python-package-5fefc1ea3606">Nested Modules</a>
