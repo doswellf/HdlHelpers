@@ -11,17 +11,23 @@ your own package and module development.
 To test it, you can use PyCharm Community and open the terminal.
 Start python3 in the src directory and 
 
-import HdlHelper as hh
+    import HdlHelper as hh
 
-dir(
-thhc = hh.TestHdlHelperClass(10101010)
-thhc.printnum()
+    print(dir(hh))
+    print(dir(hh.TestHelperClass))
 
-tvg = VerilogHelper(20202020)
-tvg.print_num()
+    thhc = hh.TestHdlHelperClass(10101010)
+    thhc.printnum()
 
-tvh = VhdlHelper(30303030)
-tvh.print_num()
+    print(dir(hh.VerilogHelper))
+
+    tvg = VerilogHelper(20202020)
+    tvg.print_num()
+
+    print(dir(VhdlHelper))
+
+    tvh = VhdlHelper(30303030)
+    tvh.print_num()
 
 This could be installed somewhere with pip or pip -e . to verify that it's portable. 
 
